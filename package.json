@@ -1,0 +1,33 @@
+{
+  "name": "projectx-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3001 nodemon -w ./server ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlewallen/projectx-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlewallen/projectx-backend/issues"
+  },
+  "homepage": "https://github.com/davidlewallen/projectx-backend#readme",
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.15.5",
+    "joi": "^13.0.1",
+    "mongodb": "^2.2.33",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.0",
+    "eslint-config-node": "^1.6.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1"
+  }
+}
